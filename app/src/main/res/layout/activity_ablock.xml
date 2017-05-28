@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context="com.example.sudhakar.electricitycontrol.AblockActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blockname_id"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Floor"
+        android:textSize="20sp"
+        android:id="@+id/athird_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Floor"
+        android:textSize="20sp"
+        android:id="@+id/asecond_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Floor"
+        android:textSize="20sp"
+        android:id="@+id/afirst_id"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ground Floor"
+        android:textSize="20sp"
+        android:id="@+id/aground_id"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        android:id="@+id/back_id"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>

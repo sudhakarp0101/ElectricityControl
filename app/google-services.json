@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "910489315961",
+    "firebase_url": "https://electricitycontrol-68d7b.firebaseio.com",
+    "project_id": "electricitycontrol-68d7b",
+    "storage_bucket": "electricitycontrol-68d7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910489315961:android:cd7f0aa089e596b6",
+        "android_client_info": {
+          "package_name": "com.example.sudhakar.electricitycontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910489315961-rp7j0kfle0sguuobskt7muoe730274ao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sudhakar.electricitycontrol",
+            "certificate_hash": "06c9156bc742e24dd392d6a76a7c21f3d31a23b9"
+          }
+        },
+        {
+          "client_id": "910489315961-r1ldfiqk4hcu8h6umoj4nqjk2md8bn44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXy7RSJRP8Me-qapteUWA9KxJ7mSrIFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910489315961-r1ldfiqk4hcu8h6umoj4nqjk2md8bn44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

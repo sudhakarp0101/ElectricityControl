@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.sudhakar.electricitycontrol.R201Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="40dp"
+            android:id="@+id/room_id"
+            android:text="Room 201"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn ="Fan1     ON "
+            android:textOff="Fan1     OFF"
+            android:textSize="15dp"
+            android:id="@+id/fan1_id"
+            android:text="Fan1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light1 ON "
+            android:textOff="Light1 OFF"
+            android:id="@+id/light1_id"
+            android:text="Light 1"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light2 ON "
+            android:textOff="Light2 OFF"
+            android:id="@+id/light2_id"
+            android:text="Light 2"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light3 ON "
+            android:textOff="Light3 OFF"
+            android:id="@+id/light3_id"
+            android:text="Light 3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan2     ON "
+            android:textOff="Fan2     OFF"
+            android:id="@+id/fan2_id"
+            android:text="Light 1"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan3     ON "
+            android:textOff="Fan3     OFF"
+            android:id="@+id/fan3_id"
+            android:text="Light 2"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan4     ON "
+            android:textOff="Fan4     OFF"
+            android:id="@+id/fan4_id"
+            android:text="Light 3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light4 ON "
+            android:textOff="Light4 OFF"
+            android:id="@+id/light4_id"
+            android:text="Light 4"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light5 ON "
+            android:textOff="Light5 OFF"
+            android:id="@+id/light5_id"
+            android:text="Light 5"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Light6 ON "
+            android:textOff="Light6 OFF"
+            android:id="@+id/light6_id"
+            android:text="Light 6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan5     ON "
+            android:textOff="Fan5     OFF"
+            android:id="@+id/fan5_id"
+            android:text="Fan 5"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan6     ON "
+            android:textOff="Fan6     OFF"
+            android:id="@+id/fan6_id"
+            android:text="Fan 6"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn="Fan7     ON "
+            android:textOff="Fan7     OFF"
+            android:id="@+id/fan7_id"
+            android:text="Fan 7"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn ="AllFans   ON "
+            android:textOff="AllFans   OFF"
+            android:id="@+id/allfans_id"
+            />
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn ="AllLights  ON "
+            android:textOff="AllLights  OFF"
+            android:id="@+id/alllights_id"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textOn ="AllFansLights ON "
+            android:textOff="AllFansLights OFF"
+            android:id="@+id/allfls_id"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/roomback_id"
+            android:text="Back"/>
+    </LinearLayout>
+</LinearLayout>
